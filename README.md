@@ -14,7 +14,7 @@ For today's fluency, we're going to be doing a bunch of exercises for PostreSQL,
 
 6. Hold up - let's alter one slight thing in our `domestic` table! We want to make sure that everyone knows it's mandatory to put in a type of animal. Set that parameter to include the NOT NULL constraint.
 
-7. Now you have two tables! (If you would like to check them, use the `\dt` command, or to view more info on a specific table, use the `\d (database)` command. Try them out!) Let's mess with the `domestic` table a bit. Write a query that returns the type of animal that has the longest type length. Then write a query that gets the second animal from your table.
+7. Now you have two tables! (If you would like to check them, use the `\dt` command, or to view more info on a specific table, use the `\d (database)` command. Try them out!) Let's mess with the `domestic` table a bit.Write a query that returns the type of animal that has the longest name. Then write a query that gets the second animal from your table.
 
 8. Let's try to connect these tables together based on similar animal types. First, alter the ID's on both tables to include a PRIMARY KEY.
 
